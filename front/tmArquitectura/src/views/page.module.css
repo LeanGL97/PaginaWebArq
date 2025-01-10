@@ -1,0 +1,9 @@
+.text{
+    font-family: "Montserrat", serif;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
