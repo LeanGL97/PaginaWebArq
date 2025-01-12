@@ -1,15 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+AU+SA:wght@100..400&display=swap');
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@font-face {
+  font-family: 'Swis721BlkOulBT';
+  src: url('/fonts/swis721-blkoul-bt.woff2') format('woff2'),
+      url('/fonts/swis721-blkoul-bt.woff') format('woff'),
+      url('/fonts/swis721-blkoul-bt.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
 
 body {
   margin: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-color:rgb(0, 0, 0);

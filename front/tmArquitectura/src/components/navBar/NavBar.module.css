@@ -1,0 +1,31 @@
+.nav {
+    width: auto;
+    margin-right: 18px;
+    margin-top: 8px;
+}
+
+
+.menuItems {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+}
+
+.menuItems li {
+    font-family: "Bebas Neue", serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    transition: text-decoration 0.3s ease;
+    color: rgb(255, 255, 255);
+}
+
+
+.menuItems li:hover {
+    text-decoration: line-through black;
+    cursor: pointer;
+}
+
+

@@ -1,9 +1,11 @@
-
+import styles from "./logo.module.css"
 
 const Logo = () => {
     return (
         <>
-        <p>Acá va el Logo 🖼 </p>
+        <div>
+            <img src="/assets/logo.png" className={styles.logo} alt="Logo" />
+        </div>
         </>
     )
 };

@@ -1,0 +1,62 @@
+
+
+.banner {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.headerContainer {
+    background-color: white;
+    position: relative;
+}
+
+.title {
+    font-family: 'Swis721BlkOulBT';
+    color: black;
+    font-size: 70px;
+    padding-top: 10px;
+    margin-left: 120px;
+    margin-bottom: 60px;
+}
+
+.subtitle {
+    font-family: "Bebas Neue", serif;
+    color: black;
+    font-style: italic;
+    font-size: 40px;
+    margin-left: 8px;
+    margin-top: -50px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.img {
+    width: 250px;
+    margin-left: 120px;
+    margin-top: -400px;
+
+}
+
+.img2 {
+    width: 250px;
+    margin-right: 120px;
+    margin-top: 500px;
+    margin-bottom: 20px;
+}
+
+.text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 16px;
+    font-style: italic;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-align: justify;
+    margin-top: 50px;
+}
