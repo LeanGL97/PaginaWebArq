@@ -1,0 +1,12 @@
+.container{
+    background-color: white;
+}
+
+.title{
+    font-family: 'Swis721BlkOulBT';
+    font-size: 70px;    
+    color: black;
+    padding-top: 10px;
+    margin-left: 120px;
+    margin-bottom: 60px;
+}

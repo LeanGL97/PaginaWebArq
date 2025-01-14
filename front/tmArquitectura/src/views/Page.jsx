@@ -5,7 +5,7 @@ import Footer from "../components/footer/Footer";
 import NavBar from "../components/navBar/NavBar";
 import Services from "../components/services/Services";
 import styles from "./page.module.css"
-
+import Recognitions from "../components/recognitions/Recognitions"
 const Page = () => {
     return (
         <>
@@ -13,8 +13,9 @@ const Page = () => {
                 <NavBar />
                 <Carrousel />
                 <AboutUs />
-                {/*<Services />
-                <ContactUs />
+                < Recognitions />
+                <Services />
+                {/*<ContactUs />
                 <Footer /> */}
             </div>
         </>
